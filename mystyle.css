@@ -1,0 +1,102 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-image: url('icons8-checkmark-50.png');
+    list-style-position: outside;
+    text-align: left;
+}
+
+.main-header {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+}
+
+.main-header > div {
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: white;
+}
+
+.main-content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.main-content > upper-content{
+  flex: 1;
+  background-color: #FF6363;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content > lower-content{
+  display: flex;
+  flex: 3;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.pricing-plan{
+  display: flex;
+  flex: 0;
+  background-color: white;
+  flex-direction: column;
+  flex-basis:350px;
+  padding: 7px;
+}
+
+.basic{
+
+  flex: 1;
+  border-radius: 5px;
+  background-color: #2e84ed;
+  color: white;
+  text-align: left;
+  flex-direction: column;
+}
+
+.all-access{
+  flex: 1;
+  border-radius: 5px;
+  background-color: #0f4a92;
+  color: white;
+  text-align: left;
+  flex-direction: column;
+}
+
+.all-access-print{
+  flex: 1;
+  border-radius: 5px;
+  background-color: #2c2c2c;
+  color: white;
+  text-align: left;
+  flex-direction: column;
+}
+
+.title {
+  font-family: 'Diplomata SC', 'Olde English', 'Abril Fatface', 'Times New Roman', Times, serif;
+}
+
+.a {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 30px;
+  color: white;
+}
