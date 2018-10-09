@@ -4,6 +4,7 @@ html, body {
 
 body {
   display: flex;
+  flex: 1 0;
   flex-direction: column;
 }
 
@@ -54,7 +55,7 @@ a.hover:hover
 }
 
 .main-content > upper-content{
-  flex: 1;
+  flex: 1 0;
   background-color: #FF6363;
   text-align: center;
   justify-content: center;
@@ -63,7 +64,7 @@ a.hover:hover
 
 .main-content > lower-content{
   display: flex;
-  flex: 3;
+  flex: 1 0;
   background-color: white;
   text-align: center;
   justify-content: center;
@@ -128,6 +129,40 @@ a.hover:hover
   border-radius: 5px;
   background-color: #9FA5AE;
   text-align: center;
+}
+
+.main-content > more-content{
+  display: flex;
+  flex: 1 0;
+  flex-direction: column;
+}
+
+.more-subscription-options{
+  display: flex;
+  flex: 1 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.more-subscription-options > div{
+  width: 400px;
+  margin: 10px;
+  padding-left: 5px;
+  background-color: #EEF2F7;
+}
+
+.main-content > faq-content{
+  display: flex;
+  flex: 1 0;
+  flex-direction: column;
+}
+
+.link{
+  text-decoration: underline;
+  font-weight: bold;
+  color: blue;
+  align-self: flex-end;
 }
 
 .title {
