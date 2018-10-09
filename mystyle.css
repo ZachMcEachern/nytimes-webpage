@@ -17,6 +17,21 @@ ul {
     text-align: left;
 }
 
+a.hover
+{
+  text-decoration: none;
+  font-weight: bold;
+}
+a.hover:hover
+{
+  text-decoration: underline;
+}
+
+.yellow
+{
+  color: #f4e542;
+}
+
 .main-header {
   display: flex;
   flex: 0 1 auto;
@@ -65,7 +80,8 @@ ul {
 
 .basic{
 
-  flex: 1;
+  flex: 0;
+  padding: 1rem;
   border-radius: 5px;
   background-color: #2e84ed;
   color: white;
@@ -73,8 +89,16 @@ ul {
   flex-direction: column;
 }
 
+.get-basic{
+  flex: 0;
+  border-radius: 5px;
+  background-color: #9FCDEA;
+  text-align: center;
+}
+
 .all-access{
-  flex: 1;
+  flex: 0;
+  padding: 1rem;
   border-radius: 5px;
   background-color: #0f4a92;
   color: white;
@@ -82,13 +106,28 @@ ul {
   flex-direction: column;
 }
 
+.get-all-access{
+  flex: 0;
+  border-radius: 5px;
+  background-color: #9FBDEA;
+  text-align: center;
+}
+
 .all-access-print{
-  flex: 1;
+  flex: 0;
+  padding: 1rem;
   border-radius: 5px;
   background-color: #2c2c2c;
   color: white;
   text-align: left;
   flex-direction: column;
+}
+
+.get-all-access-print{
+  flex: 0;
+  border-radius: 5px;
+  background-color: #9FA5AE;
+  text-align: center;
 }
 
 .title {
