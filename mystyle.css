@@ -13,9 +13,16 @@ p {
 }
 
 ul {
-    list-style-image: url('icons8-checkmark-50.png');
     list-style-position: outside;
     text-align: left;
+}
+
+.checkmark{
+  list-style-image: url('icons8-checkmark-50.png');
+}
+
+.blue-plus{
+  list-style-image: url('blue-plus.png');
 }
 
 a.hover
@@ -156,6 +163,13 @@ a.hover:hover
   display: flex;
   flex: 1 0;
   flex-direction: column;
+  background-color: blue;
+}
+
+.faq-content-container{
+  display: flex;
+  flex: 1 0;
+  flex-wrap: wrap;
 }
 
 .link{
