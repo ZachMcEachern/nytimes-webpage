@@ -6,6 +6,7 @@ body {
   display: flex;
   flex: 1 0;
   flex-direction: column;
+  padding: 2rem;
 }
 
 p {
@@ -23,6 +24,12 @@ ul {
 
 .blue-plus{
   list-style-image: url('blue-plus.png');
+  color: blue;
+}
+
+.footer{
+  list-style: none;
+  line-height: 2.5;
 }
 
 a.hover
@@ -38,6 +45,14 @@ a.hover:hover
 .yellow
 {
   color: #f4e542;
+}
+
+.header{
+  background-color: #151617;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
 }
 
 .main-header {
@@ -102,6 +117,7 @@ a.hover:hover
   border-radius: 5px;
   background-color: #9FCDEA;
   text-align: center;
+  padding: 10px;
 }
 
 .all-access{
@@ -119,6 +135,7 @@ a.hover:hover
   border-radius: 5px;
   background-color: #9FBDEA;
   text-align: center;
+  padding: 10px;
 }
 
 .all-access-print{
@@ -136,40 +153,82 @@ a.hover:hover
   border-radius: 5px;
   background-color: #9FA5AE;
   text-align: center;
+  padding: 10px;
 }
 
 .main-content > more-content{
   display: flex;
   flex: 1 0;
   flex-direction: column;
-}
-
-.more-subscription-options{
-  display: flex;
-  flex: 1 0;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
-.more-subscription-options > div{
-  width: 400px;
+.more-content-item{
+  width: 1100px;
+}
+
+table.more-subscription-options {
+  table-layout: auto;
+  width: 1100px;
+  border-spacing: 15px;
+}
+
+td {
   margin: 10px;
-  padding-left: 5px;
-  background-color: #EEF2F7;
+  padding-left: 10px;
+  background-color: #DEDEDE;
 }
 
 .main-content > faq-content{
   display: flex;
   flex: 1 0;
   flex-direction: column;
-  background-color: blue;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.faq-item{
+  width: 1100px;
+}
+
+.faq-question{
+  color: black;
+}
+
+.faq-button{
+  flex: 1 0;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #1496EA;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+  padding: 10px;
 }
 
 .faq-content-container{
   display: flex;
   flex: 1 0;
   flex-wrap: wrap;
+}
+
+.main-content > footer-content{
+  display: flex;
+  flex: 1 0;
+  padding: 1rem;
+  background-color: #151617;
+  color: white;
+  text-align: left;
+  justify-content: space-around;
+}
+
+.footer-boxes{
+  flex: 1 0;
 }
 
 .link{
