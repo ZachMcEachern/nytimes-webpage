@@ -78,6 +78,7 @@ a.hover:hover
 
 .main-content > upper-content{
   flex: 1 0;
+  padding: 21px;
   background-color: #FF6363;
   text-align: center;
   justify-content: center;
@@ -154,6 +155,13 @@ a.hover:hover
   background-color: #9FA5AE;
   text-align: center;
   padding: 10px;
+}
+
+.bonus{
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  padding: 1px;
 }
 
 .main-content > more-content{
