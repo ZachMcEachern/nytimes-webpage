@@ -18,20 +18,24 @@ ul {
     text-align: left;
 }
 
+/*Adds the checkmark to the UL*/
 .checkmark{
   list-style-image: url('icons8-checkmark-50.png');
 }
 
+/*Used to make the blue plus for the UL*/
 .blue-plus{
   list-style-image: url('blue-plus.png');
   color: blue;
 }
 
+/*Styling for the table at the bottom*/
 .footer{
   list-style: none;
   line-height: 2.5;
 }
 
+/*Makes it so it looks like a link when you hover*/
 a.hover
 {
   text-decoration: none;
@@ -76,6 +80,7 @@ a.hover:hover
   flex-direction: column;
 }
 
+/*This is for the big red box at the top of the page.*/
 .main-content > upper-content{
   flex: 1 0;
   padding: 21px;
@@ -85,6 +90,7 @@ a.hover:hover
   align-items: center;
 }
 
+/*This styles the flex box below that contains the pricing plans.*/
 .main-content > lower-content{
   display: flex;
   flex: 1 0;
@@ -102,6 +108,7 @@ a.hover:hover
   padding: 7px;
 }
 
+/*Ligth blue pricing plan box*/
 .basic{
 
   flex: 0;
@@ -121,6 +128,7 @@ a.hover:hover
   padding: 10px;
 }
 
+/*Darker blue box*/
 .all-access{
   flex: 0;
   padding: 1rem;
@@ -139,6 +147,7 @@ a.hover:hover
   padding: 10px;
 }
 
+/*Black pricing plan box.*/
 .all-access-print{
   flex: 0;
   padding: 1rem;
@@ -157,6 +166,7 @@ a.hover:hover
   padding: 10px;
 }
 
+/*Makes the little red BONUS box*/
 .bonus{
   border-radius: 5px;
   background-color: red;
@@ -164,6 +174,7 @@ a.hover:hover
   padding: 1px;
 }
 
+/*This is the flex container for the more subsriber options.*/
 .main-content > more-content{
   display: flex;
   flex: 1 0;
@@ -189,6 +200,7 @@ td {
   background-color: #DEDEDE;
 }
 
+/*Handles the FAQ portion.*/
 .main-content > faq-content{
   display: flex;
   flex: 1 0;
@@ -225,6 +237,7 @@ td {
   flex-wrap: wrap;
 }
 
+/*Styles the black box at the bottom.*/
 .main-content > footer-content{
   display: flex;
   flex: 1 0;
@@ -250,6 +263,7 @@ td {
   font-family: 'Diplomata SC', 'Olde English', 'Abril Fatface', 'Times New Roman', Times, serif;
 }
 
+/*Styles the text within the red box.*/
 .a {
   font-family: Impact, Charcoal, sans-serif;
   font-size: 30px;
